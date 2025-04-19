@@ -19,7 +19,11 @@ def cesar_encrypt(clearText, step):
     return cipherText
 
 
+
+# Exemple d'utilisation
 clearText = input("Entrer le texte à chiffrer : ")
-step = int (input("Entrer le pas : "))
+step = int(input("Entrer le pas : "))
+
 cipherText = cesar_encrypt(clearText, step)
-print(cipherText)
+print("Texte chiffré :", cipherText)
+
